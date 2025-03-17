@@ -7,14 +7,14 @@ length = len(randomword)
 print('''
          RULES!
 You have to guess the word.
-You must enter letters from the alphabet.
 You have 6 tries!
+if you guess the word, you win!
+and if tou see [ ] it means that the letter is in the right place.]
 ''')
-
 print(f"The word has {length} letters. Try to guess it!")
 
 attempts = 6
-
+print()
 for j in range(6):
     result = ""
     print(f"Attempt {j + 1}/6")
